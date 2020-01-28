@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/@mp-components/mp-store?style=flat-square)](https://www.npmjs.com/package/@mp-components/mp-store)
 [![GitHub issues](https://img.shields.io/github/issues/pengtikui/mp-store?style=flat-square)](https://github.com/pengtikui/mp-store/issues)
-[![License](https://img.shields.io/github/license/pengtikui/mp-store?style=flat-square)](https://github.com/pengtikui/mp-redux/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/pengtikui/mp-store?style=flat-square)](https://github.com/pengtikui/mp-store/blob/master/LICENSE)
 
 简洁的微信小程序全局状态管理
 
