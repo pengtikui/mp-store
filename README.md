@@ -1,5 +1,9 @@
 # @mp-components/mp-store
 
+[![npm](https://img.shields.io/npm/v/@mp-components/mp-store?style=flat-square)](https://www.npmjs.com/package/@mp-components/mp-store)
+[![GitHub issues](https://img.shields.io/github/issues/pengtikui/mp-store?style=flat-square)](https://github.com/pengtikui/mp-store/issues)
+[![License](https://img.shields.io/github/license/pengtikui/mp-store?style=flat-square)](https://github.com/pengtikui/mp-redux/blob/master/LICENSE)
+
 简洁的微信小程序全局状态管理
 
 > 在 1.0.0 版本之前，API 不稳定
@@ -28,7 +32,7 @@ const counter = {
     async asyncIncrease() {
       await asyncFunc();
       this.setState({ count: this.getState().count + 1 });
-    }
+    },
   },
 };
 ```
@@ -66,7 +70,7 @@ const mapActions = actions => ({ increaseCount: actions.counter.increase });
 Page(connect(mapState, mapActions)(
   onLoad() {
     // ...
-  }
+  },
 ));
 ```
 
@@ -96,4 +100,4 @@ connect(mapState[, mapActions])(pageOptions)
 
 ## 协议
 
-MIT License (c) [pengtikui](https://github.com/pengtikui)
+MIT License (c) 2020-preset [pengtikui](https://github.com/pengtikui)
