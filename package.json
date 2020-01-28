@@ -1,5 +1,5 @@
 {
-  "name": "mp-store",
+  "name": "@mp-components/mp-store",
   "version": "0.1.0",
   "description": "Simple global state container for WeChat Mini Program",
   "keywords": [

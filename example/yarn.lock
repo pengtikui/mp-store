@@ -2,5 +2,5 @@
 # yarn lockfile v1
 
 
-mp-store@../:
+"@mp-components/mp-store@../":
   version "0.1.0"

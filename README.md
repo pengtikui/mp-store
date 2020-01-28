@@ -1,4 +1,4 @@
-# mp-store
+# @mp-components/mp-store
 
 简洁的微信小程序全局状态管理
 
@@ -36,7 +36,7 @@ const counter = {
 #### 创建 store
 
 ```js
-import { createStore } from 'mp-store';
+import { createStore } from '@mp-components/mp-store';
 
 const store = createStore({ counter });
 ```
@@ -44,7 +44,7 @@ const store = createStore({ counter });
 #### 在 app.js 中引用
 
 ```js
-import { withStore } from 'mp-store';
+import { withStore } from '@mp-components/mp-store';
 
 App(withStore(store)({
   onLaunch() {
@@ -56,7 +56,7 @@ App(withStore(store)({
 #### 在页面中使用
 
 ```js
-import { connect } from 'mp-store';
+import { connect } from '@mp-components/mp-store';
 
 // couterCount 会被注入到 this.data 中，可以直接在 wxml 中使用
 const mapState = state => ({ couterCount: state.counter.count });

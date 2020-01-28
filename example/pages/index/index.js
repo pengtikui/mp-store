@@ -1,4 +1,4 @@
-import { connect } from 'mp-store';
+import { connect } from '@mp-components/mp-store';
 
 const mapState = (state) => ({
   ...state.counter,

@@ -1,4 +1,4 @@
-import { withStore } from 'mp-store'
+import { withStore } from '@mp-components/mp-store';
 import store from './models/index';
 
 App(withStore(store)({

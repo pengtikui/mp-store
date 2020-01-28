@@ -1,4 +1,4 @@
-import { createStore } from 'mp-store';
+import { createStore } from '@mp-components/mp-store';
 import counter from './counter';
 
 const store = createStore({ counter });
