@@ -1,0 +1,7 @@
+<view>
+  <view class="count">{{count}}</view>
+  <button bind:tap="increase">Increase</button>
+  <button bind:tap="decrease">Decrease</button>
+  <button bind:tap="asyncIncrease" loading="{{asyncIncreaseLoading}}">Async Increase</button>
+  <navigator url="/pages/detail/detail">Goto Detail</navigator>
+</view>

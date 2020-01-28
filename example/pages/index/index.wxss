@@ -1,0 +1,17 @@
+page {
+  padding: 0 24px;
+  box-sizing: border-box;
+}
+button {
+  margin-bottom: 12px;
+}
+navigator {
+  margin-top: 24px;
+  text-align: center;
+}
+.count {
+  padding: 20px 0;
+  font-size: 200rpx;
+  font-weight: 500;
+  text-align: center;
+}

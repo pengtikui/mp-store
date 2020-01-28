@@ -1,0 +1,26 @@
+{
+  "name": "mp-store",
+  "version": "0.1.0",
+  "description": "Simple global state container for WeChat Mini Program",
+  "keywords": [
+    "wechat",
+    "mp",
+    "redux",
+    "state",
+    "elm"
+  ],
+  "author": {
+    "name": "pengtikui",
+    "url": "https://github.com/pengtikui"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pengtikui/mp-store"
+  },
+  "bugs": {
+    "url": "https://github.com/pengtikui/mp-store/issues"
+  },
+  "license": "MIT",
+  "main": "lib/index.js",
+  "miniprogram": "lib"
+}
